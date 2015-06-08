@@ -30,8 +30,6 @@ class DrawingView: UIView {
 
     func setup() {
         backgroundColor = UIColor.clearColor()
-        layer.borderColor = UIColor.blueColor().colorWithAlphaComponent(0.5).CGColor
-        layer.borderWidth = 10
 
         points = [CGPoint]()
 
