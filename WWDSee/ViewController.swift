@@ -180,6 +180,10 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
         return true
     }
 
+    func mapView(mapView: MGLMapView!, leftCalloutAccessoryViewForAnnotation annotation: MGLAnnotation!) -> UIView! {
+        return UIImageView(image: UIImage(named: "listing_thumb.jpg"))
+    }
+
     func mapView(mapView: MGLMapView!, rightCalloutAccessoryViewForAnnotation annotation: MGLAnnotation!) -> UIView! {
         return UIButton.buttonWithType(.DetailDisclosure) as! UIView
     }

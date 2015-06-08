@@ -17,6 +17,8 @@
 		DDF8BCAA1B2570A300891404 /* denver.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCA91B2570A300891404 /* denver.geojson */; };
 		DDF8BCAD1B25719F00891404 /* turf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCAB1B25719E00891404 /* turf.min.js */; };
 		DDF8BCAE1B25719F00891404 /* javascript.util.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCAC1B25719E00891404 /* javascript.util.min.js */; };
+		DDF8BCB21B25E28E00891404 /* listing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCB11B25E28E00891404 /* listing.jpg */; };
+		DDF8BCB41B25E36400891404 /* listing_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCB31B25E36400891404 /* listing_thumb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		DDF8BCA91B2570A300891404 /* denver.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = denver.geojson; sourceTree = "<group>"; };
 		DDF8BCAB1B25719E00891404 /* turf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = turf.min.js; sourceTree = "<group>"; };
 		DDF8BCAC1B25719E00891404 /* javascript.util.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascript.util.min.js; sourceTree = "<group>"; };
+		DDF8BCB11B25E28E00891404 /* listing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listing.jpg; sourceTree = "<group>"; };
+		DDF8BCB31B25E36400891404 /* listing_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listing_thumb.jpg; sourceTree = "<group>"; };
 		F725F8588C0901009F80D71C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +89,8 @@
 				DDF8BCA91B2570A300891404 /* denver.geojson */,
 				DDF8BCAB1B25719E00891404 /* turf.min.js */,
 				DDF8BCAC1B25719E00891404 /* javascript.util.min.js */,
+				DDF8BCB11B25E28E00891404 /* listing.jpg */,
+				DDF8BCB31B25E36400891404 /* listing_thumb.jpg */,
 				DDF8BC821B253CF400891404 /* Supporting Files */,
 			);
 			path = WWDSee;
@@ -168,6 +174,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF8BCB21B25E28E00891404 /* listing.jpg in Resources */,
+				DDF8BCB41B25E36400891404 /* listing_thumb.jpg in Resources */,
 				DDF8BCAE1B25719F00891404 /* javascript.util.min.js in Resources */,
 				DDF8BC8F1B253CF400891404 /* LaunchScreen.xib in Resources */,
 				DDF8BCAD1B25719F00891404 /* turf.min.js in Resources */,
