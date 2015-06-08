@@ -4,6 +4,7 @@ import MapboxGL
 class ViewController: UIViewController {
 
     var map: MGLMapView!
+    var drawingView: DrawingView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +41,11 @@ class ViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Cancel,
             target: self,
             action: "cancelSearch")
+
+        map.userInteractionEnabled = false
+
+        drawingView = DrawingView(frame: view.bounds)
+        view.addSubview(drawingView)
     }
 
     func cancelSearch() {
@@ -48,6 +54,10 @@ class ViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Search,
             target: self,
             action: "startSearch")
+
+        map.userInteractionEnabled = true
+
+        drawingView.removeFromSuperview()
     }
 
 }
