@@ -111,6 +111,7 @@ class ViewController: UIViewController,
             startingPoint?.title = "Starting Location"
             startingPoint?.coordinate = coordinate
             map.addAnnotation(startingPoint)
+            map.selectAnnotation(startingPoint, animated: true)
         }
     }
 
