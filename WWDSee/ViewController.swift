@@ -130,27 +130,30 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
 
         js.evaluateScript("var within = turf.within(listings, polygon)")
 
-        var annotationsToAdd = [MGLAnnotation]()
+        var annotations = [MGLAnnotation]()
 
         for i in 0..<js.evaluateScript("within.features.length").toInt32() {
             js.setObject(NSNumber(int: i), forKeyedSubscript: "i")
             let listing = js.evaluateScript("within.features[i]")
             let lon = listing.objectForKeyedSubscript("geometry").objectForKeyedSubscript("coordinates").objectAtIndexedSubscript(0).toDouble()
             let lat = listing.objectForKeyedSubscript("geometry").objectForKeyedSubscript("coordinates").objectAtIndexedSubscript(1).toDouble()
-            var newAnnotation = MGLPointAnnotation()
-            newAnnotation.coordinate = CLLocationCoordinate2D(latitude: lat,
+            let price = "$" + listing.objectForKeyedSubscript("properties").objectForKeyedSubscript("price").toString()
+            var annotation = MGLPointAnnotation()
+            annotation.coordinate = CLLocationCoordinate2D(latitude: lat,
                 longitude: lon)
-            annotationsToAdd.append(newAnnotation)
+            annotation.title = "Listing"
+            annotation.subtitle = price
+            annotations.append(annotation)
         }
 
-        annotationsToAdd.append(MGLPolygon(coordinates: &coordinates, count: UInt(coordinates.count)))
-        annotationsToAdd.append(MGLPolyline(coordinates: &coordinates, count: UInt(coordinates.count)))
+        annotations.append(MGLPolygon(coordinates: &coordinates, count: UInt(coordinates.count)))
+        annotations.append(MGLPolyline(coordinates: &coordinates, count: UInt(coordinates.count)))
 
         var connector = [coordinates.last!, coordinates.first!]
 
-        annotationsToAdd.append(MGLPolyline(coordinates: &connector, count: UInt(connector.count)))
+        annotations.append(MGLPolyline(coordinates: &connector, count: UInt(connector.count)))
 
-        map.addAnnotations(annotationsToAdd)
+        map.addAnnotations(annotations)
 
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(0.5)), dispatch_get_main_queue()) { [unowned self] in
             self.cancelSearch()
@@ -171,6 +174,18 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
 
     func mapView(mapView: MGLMapView!, strokeColorForShapeAnnotation annotation: MGLShape!) -> UIColor! {
         return UIColor.redColor()
+    }
+
+    func mapView(mapView: MGLMapView!, annotationCanShowCallout annotation: MGLAnnotation!) -> Bool {
+        return true
+    }
+
+    func mapView(mapView: MGLMapView!, rightCalloutAccessoryViewForAnnotation annotation: MGLAnnotation!) -> UIView! {
+        return UIButton.buttonWithType(.DetailDisclosure) as! UIView
+    }
+
+    func mapView(mapView: MGLMapView!, annotation: MGLAnnotation!, calloutAccessoryControlTapped control: UIControl!) {
+        println(annotation.title)
     }
 
 }
