@@ -34,4 +34,20 @@ class ViewController: UIViewController {
         }
     }
 
+    func startSearch() {
+        navigationItem.leftBarButtonItem!.enabled = false
+
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Cancel,
+            target: self,
+            action: "cancelSearch")
+    }
+
+    func cancelSearch() {
+        navigationItem.leftBarButtonItem!.enabled = true
+
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Search,
+            target: self,
+            action: "startSearch")
+    }
+
 }
