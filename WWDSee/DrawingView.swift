@@ -1,9 +1,16 @@
 import UIKit
 
+protocol DrawingViewDelegate {
+
+    func drawingView(drawingView: DrawingView, didDrawWithPoints points: [CGPoint])
+
+}
+
 class DrawingView: UIView {
 
     var points: [CGPoint]!
     var context: CGContextRef!
+    var delegate: DrawingViewDelegate?
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -63,7 +70,7 @@ class DrawingView: UIView {
     override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
         let point = (touches.first as! UITouch).locationInView(self)
 
-        println(points)
+        delegate?.drawingView(self, didDrawWithPoints: points)
     }
 
 }

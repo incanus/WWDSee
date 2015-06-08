@@ -1,7 +1,7 @@
 import UIKit
 import MapboxGL
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, DrawingViewDelegate {
 
     var map: MGLMapView!
     var drawingView: DrawingView!
@@ -45,6 +45,7 @@ class ViewController: UIViewController {
         map.userInteractionEnabled = false
 
         drawingView = DrawingView(frame: view.bounds)
+        drawingView.delegate = self
         view.addSubview(drawingView)
     }
 
@@ -58,6 +59,10 @@ class ViewController: UIViewController {
         map.userInteractionEnabled = true
 
         drawingView.removeFromSuperview()
+    }
+
+    func drawingView(drawingView: DrawingView, didDrawWithPoints points: [CGPoint]) {
+        println(points)
     }
 
 }
