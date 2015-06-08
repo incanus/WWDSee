@@ -25,6 +25,7 @@
 		DDF8BCC41B26402D00891404 /* 1096-direction-arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCC11B26402D00891404 /* 1096-direction-arrow@3x.png */; };
 		DDF8BCC51B26402D00891404 /* 1096-direction-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCC21B26402D00891404 /* 1096-direction-arrow.png */; };
 		DDF8BCC61B26402D00891404 /* 1096-direction-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCC31B26402D00891404 /* 1096-direction-arrow@2x.png */; };
+		DDF8BCC81B2645AF00891404 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BCC71B2645AF00891404 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		DDF8BCC11B26402D00891404 /* 1096-direction-arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1096-direction-arrow@3x.png"; sourceTree = "<group>"; };
 		DDF8BCC21B26402D00891404 /* 1096-direction-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1096-direction-arrow.png"; sourceTree = "<group>"; };
 		DDF8BCC31B26402D00891404 /* 1096-direction-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1096-direction-arrow@2x.png"; sourceTree = "<group>"; };
+		DDF8BCC71B2645AF00891404 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		F725F8588C0901009F80D71C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 				DDF8BC841B253CF400891404 /* AppDelegate.swift */,
 				DDF8BC861B253CF400891404 /* ViewController.swift */,
 				DDF8BCA61B25477300891404 /* DrawingView.swift */,
+				DDF8BCC71B2645AF00891404 /* Extension.swift */,
 				DDF8BC8B1B253CF400891404 /* Images.xcassets */,
 				DDF8BC8D1B253CF400891404 /* LaunchScreen.xib */,
 				DDF8BCBF1B25F91900891404 /* JavaScript */,
@@ -295,6 +298,7 @@
 			files = (
 				DDF8BCA71B25477300891404 /* DrawingView.swift in Sources */,
 				DDF8BC871B253CF400891404 /* ViewController.swift in Sources */,
+				DDF8BCC81B2645AF00891404 /* Extension.swift in Sources */,
 				DDF8BCB61B25E4A100891404 /* MapboxGeocoder.swift in Sources */,
 				DDF8BCBB1B25F8FC00891404 /* SwiftyJSON.swift in Sources */,
 				DDF8BCBC1B25F8FC00891404 /* MapboxDirections.swift in Sources */,

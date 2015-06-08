@@ -13,6 +13,8 @@ class ViewController: UIViewController,
                       DrawingViewDelegate,
                       MGLMapViewDelegate {
 
+    let MapboxTintColor = UIColor(red: 0.120, green:0.550, blue:0.670, alpha:1.000)
+
     var map: MGLMapView!
     var js: JSContext!
     var drawingView: DrawingView!
@@ -26,6 +28,9 @@ class ViewController: UIViewController,
         super.viewDidLoad()
 
         title = "Search Listings"
+
+        view.tintColor = MapboxTintColor
+        navigationController?.navigationBar.tintColor = MapboxTintColor
 
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Organize,
             target: self,
@@ -264,11 +269,10 @@ class ViewController: UIViewController,
     }
 
     func mapView(mapView: MGLMapView!, rightCalloutAccessoryViewForAnnotation annotation: MGLAnnotation!) -> UIView! {
-        if (annotation is ListingAnnotation) {
+        if (annotation is ListingAnnotation && startingPoint != nil) {
             let button = UIButton.buttonWithType(.Custom) as! UIButton
             button.accessibilityLabel = "Show directions"
-            var tintedImage = UIImage()
-            let image = UIImage(named: "1096-direction-arrow")!
+            let image = UIImage(named: "1096-direction-arrow")!.imageTintedWithColor(MapboxTintColor)
             button.setImage(image, forState: .Normal)
             button.frame = CGRect(x: 0, y: 0, width: image.size.width, height: image.size.height)
             return button
