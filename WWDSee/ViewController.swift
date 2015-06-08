@@ -81,11 +81,20 @@ class ViewController: UIViewController,
     }
 
     func swapStyle() {
-        if (map.styleURL.absoluteString!.hasSuffix("emerald-v7.json")) {
-            map.styleURL = NSURL(string: "asset://styles/mapbox-streets-v7.json")
+        let currentStyle = map.styleURL.absoluteString!.componentsSeparatedByString("/").last!
+        var newStyle: String
+
+        if (currentStyle.hasPrefix("mapbox-streets")) {
+            newStyle = "emerald"
+        } else if (currentStyle.hasPrefix("emerald")) {
+            newStyle = "light"
+        } else if (currentStyle.hasPrefix("light")) {
+            newStyle = "dark"
         } else {
-            map.styleURL = NSURL(string: "asset://styles/emerald-v7.json")
+            newStyle = "mapbox-streets"
         }
+
+        map.styleURL = NSURL(string: NSString(format: "asset://styles/%@-v7.json", newStyle) as String)
     }
 
     func handleLongPress(longPress: UILongPressGestureRecognizer) {
