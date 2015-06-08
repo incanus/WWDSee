@@ -19,6 +19,7 @@
 		DDF8BCAE1B25719F00891404 /* javascript.util.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCAC1B25719E00891404 /* javascript.util.min.js */; };
 		DDF8BCB21B25E28E00891404 /* listing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCB11B25E28E00891404 /* listing.jpg */; };
 		DDF8BCB41B25E36400891404 /* listing_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCB31B25E36400891404 /* listing_thumb.jpg */; };
+		DDF8BCB61B25E4A100891404 /* MapboxGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BCB51B25E4A100891404 /* MapboxGeocoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		DDF8BCAC1B25719E00891404 /* javascript.util.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascript.util.min.js; sourceTree = "<group>"; };
 		DDF8BCB11B25E28E00891404 /* listing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listing.jpg; sourceTree = "<group>"; };
 		DDF8BCB31B25E36400891404 /* listing_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listing_thumb.jpg; sourceTree = "<group>"; };
+		DDF8BCB51B25E4A100891404 /* MapboxGeocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapboxGeocoder.swift; path = MapboxGeocoder/MBGeocoder/MapboxGeocoder.swift; sourceTree = SOURCE_ROOT; };
 		F725F8588C0901009F80D71C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				DDF8BCAC1B25719E00891404 /* javascript.util.min.js */,
 				DDF8BCB11B25E28E00891404 /* listing.jpg */,
 				DDF8BCB31B25E36400891404 /* listing_thumb.jpg */,
+				DDF8BCB51B25E4A100891404 /* MapboxGeocoder.swift */,
 				DDF8BC821B253CF400891404 /* Supporting Files */,
 			);
 			path = WWDSee;
@@ -242,6 +245,7 @@
 			files = (
 				DDF8BCA71B25477300891404 /* DrawingView.swift in Sources */,
 				DDF8BC871B253CF400891404 /* ViewController.swift in Sources */,
+				DDF8BCB61B25E4A100891404 /* MapboxGeocoder.swift in Sources */,
 				DDF8BC851B253CF400891404 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
     var map: MGLMapView!
     var js: JSContext!
     var drawingView: DrawingView!
+    var geocoder: MBGeocoder!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +54,8 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
             encoding: NSUTF8StringEncoding,
             error: nil) as! String
         js.evaluateScript(turfJS)
+
+        geocoder = MBGeocoder(accessToken: MGLAccountManager.accessToken())
     }
 
     func swapStyle() {
@@ -190,6 +193,20 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
 
     func mapView(mapView: MGLMapView!, annotation: MGLAnnotation!, calloutAccessoryControlTapped control: UIControl!) {
         println(annotation.title)
+    }
+
+    func mapView(mapView: MGLMapView!, didSelectAnnotation annotation: MGLAnnotation!) {
+        if (annotation.title == "Listing") {
+            geocoder.cancelGeocode()
+            geocoder.reverseGeocodeLocation(CLLocation(latitude: annotation.coordinate.latitude,
+                longitude: annotation.coordinate.longitude),
+                completionHandler: { [unowned self] (results, error) in
+                    let streetAddress = (results.first! as! MBPlacemark).name.componentsSeparatedByString(",").first!
+                    (annotation as! MGLPointAnnotation).title = streetAddress
+                    self.map.deselectAnnotation(annotation, animated: false)
+                    self.map.selectAnnotation(annotation, animated: false)
+            })
+        }
     }
 
 }
