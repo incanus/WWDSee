@@ -248,7 +248,16 @@ class ViewController: UIViewController,
     }
 
     func mapView(mapView: MGLMapView!, rightCalloutAccessoryViewForAnnotation annotation: MGLAnnotation!) -> UIView! {
-        return (annotation is ListingAnnotation ? UIButton.buttonWithType(.DetailDisclosure) as! UIView : nil)
+        if (annotation is ListingAnnotation) {
+            let button = UIButton.buttonWithType(.Custom) as! UIButton
+            button.accessibilityLabel = "Show directions"
+            var tintedImage = UIImage()
+            let image = UIImage(named: "1096-direction-arrow")!
+            button.setImage(image, forState: .Normal)
+            button.frame = CGRect(x: 0, y: 0, width: image.size.width, height: image.size.height)
+            return button
+        }
+        return nil
     }
 
     func mapView(mapView: MGLMapView!, annotation: MGLAnnotation!, calloutAccessoryControlTapped control: UIControl!) {
