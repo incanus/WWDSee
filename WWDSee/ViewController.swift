@@ -1,13 +1,26 @@
 import UIKit
+import CoreLocation
 import MapboxGL
 import JavaScriptCore
+import MBProgressHUD
 
-class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate {
+class ListingAnnotation:  MGLPointAnnotation {}
+class StartingAnnotation: MGLPointAnnotation {}
+class KeyLine: MGLPolyline {}
+class RouteLine: MGLPolyline {}
+
+class ViewController: UIViewController,
+                      DrawingViewDelegate,
+                      MGLMapViewDelegate {
 
     var map: MGLMapView!
     var js: JSContext!
     var drawingView: DrawingView!
     var geocoder: MBGeocoder!
+    var startingPoint: StartingAnnotation?
+    var directions: MBDirections?
+    var route: [CLLocationCoordinate2D]?
+    var routeLine: RouteLine?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +42,15 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
             longitude: -104.981105)
         map.zoomLevel = 10
         view.addSubview(map)
+
+        map.addGestureRecognizer(UILongPressGestureRecognizer(target: self,
+            action: "handleLongPress:"))
+        map.addGestureRecognizer({
+            let doubleLongPress = UILongPressGestureRecognizer(target: self,
+                action: "handleDoubleLongPress:")
+            doubleLongPress.numberOfTouchesRequired = 2
+            return doubleLongPress
+            }())
 
         js = JSContext(virtualMachine: JSVirtualMachine())
 
@@ -66,6 +88,33 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
         }
     }
 
+    func handleLongPress(longPress: UILongPressGestureRecognizer) {
+        if (longPress.state == .Began) {
+            let coordinate = map.convertPoint(longPress.locationInView(longPress.view),
+                toCoordinateFromView: map)
+            if (startingPoint != nil) {
+                map.removeAnnotation(startingPoint)
+            }
+            if (routeLine != nil) {
+                map.removeAnnotation(routeLine)
+            }
+            startingPoint = StartingAnnotation()
+            startingPoint?.title = "Starting Location"
+            startingPoint?.coordinate = coordinate
+            map.addAnnotation(startingPoint)
+        }
+    }
+
+    func handleDoubleLongPress(longPress: UILongPressGestureRecognizer) {
+        if (longPress.state == .Began) {
+            map.removeAnnotations(map.annotations)
+            if (drawingView != nil) {
+                drawingView.removeFromSuperview()
+                drawingView = nil
+            }
+        }
+    }
+
     func startSearch() {
         navigationItem.leftBarButtonItem!.enabled = false
 
@@ -90,6 +139,7 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
         map.userInteractionEnabled = true
 
         drawingView.removeFromSuperview()
+        drawingView = nil
     }
 
     func drawingView(drawingView: DrawingView, didDrawWithPoints points: [CGPoint]) {
@@ -141,7 +191,7 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
             let lon = listing.objectForKeyedSubscript("geometry").objectForKeyedSubscript("coordinates").objectAtIndexedSubscript(0).toDouble()
             let lat = listing.objectForKeyedSubscript("geometry").objectForKeyedSubscript("coordinates").objectAtIndexedSubscript(1).toDouble()
             let price = "$" + listing.objectForKeyedSubscript("properties").objectForKeyedSubscript("price").toString()
-            var annotation = MGLPointAnnotation()
+            var annotation = ListingAnnotation()
             annotation.coordinate = CLLocationCoordinate2D(latitude: lat,
                 longitude: lon)
             annotation.title = "Listing"
@@ -150,15 +200,15 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
         }
 
         annotations.append(MGLPolygon(coordinates: &coordinates, count: UInt(coordinates.count)))
-        annotations.append(MGLPolyline(coordinates: &coordinates, count: UInt(coordinates.count)))
+        annotations.append(KeyLine(coordinates: &coordinates, count: UInt(coordinates.count)))
 
         var connector = [coordinates.last!, coordinates.first!]
 
-        annotations.append(MGLPolyline(coordinates: &connector, count: UInt(connector.count)))
+        annotations.append(KeyLine(coordinates: &connector, count: UInt(connector.count)))
 
         map.addAnnotations(annotations)
 
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(0.5)), dispatch_get_main_queue()) { [unowned self] in
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(NSEC_PER_SEC)), dispatch_get_main_queue()) { [unowned self] in
             self.cancelSearch()
         }
     }
@@ -172,11 +222,11 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
     }
 
     func mapView(mapView: MGLMapView!, lineWidthForPolylineAnnotation annotation: MGLPolyline!) -> CGFloat {
-        return 2
+        return (annotation is KeyLine ? 2 : 3)
     }
 
     func mapView(mapView: MGLMapView!, strokeColorForShapeAnnotation annotation: MGLShape!) -> UIColor! {
-        return UIColor.blueColor()
+        return (annotation is KeyLine ? UIColor.blueColor() : UIColor.purpleColor())
     }
 
     func mapView(mapView: MGLMapView!, annotationCanShowCallout annotation: MGLAnnotation!) -> Bool {
@@ -184,19 +234,38 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
     }
 
     func mapView(mapView: MGLMapView!, leftCalloutAccessoryViewForAnnotation annotation: MGLAnnotation!) -> UIView! {
-        return UIImageView(image: UIImage(named: "listing_thumb.jpg"))
+        return (annotation is ListingAnnotation ? UIImageView(image: UIImage(named: "listing_thumb.jpg")) : nil)
     }
 
     func mapView(mapView: MGLMapView!, rightCalloutAccessoryViewForAnnotation annotation: MGLAnnotation!) -> UIView! {
-        return UIButton.buttonWithType(.DetailDisclosure) as! UIView
+        return (annotation is ListingAnnotation ? UIButton.buttonWithType(.DetailDisclosure) as! UIView : nil)
     }
 
     func mapView(mapView: MGLMapView!, annotation: MGLAnnotation!, calloutAccessoryControlTapped control: UIControl!) {
-        println(annotation.title)
+        if (startingPoint != nil) {
+            map.deselectAnnotation(annotation, animated: false)
+
+            if (routeLine != nil) {
+                map.removeAnnotation(routeLine)
+            }
+
+            let hud = MBProgressHUD(view: view)
+            hud.mode = .Indeterminate
+            hud.labelText = "Routing..."
+            view.addSubview(hud)
+            hud.show(true)
+            hud.hide(true, afterDelay: 2.0)
+
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(2) * Int64(NSEC_PER_SEC)), dispatch_get_main_queue()) { [unowned self] in
+                var coordinates = self.route!
+                self.routeLine = RouteLine(coordinates: &coordinates, count: UInt(coordinates.count))
+                self.map.addAnnotation(self.routeLine)
+            }
+        }
     }
 
     func mapView(mapView: MGLMapView!, symbolNameForAnnotation annotation: MGLAnnotation!) -> String! {
-        return "secondary_marker"
+        return (annotation is ListingAnnotation ? "secondary_marker" : "default_marker")
     }
 
     func mapView(mapView: MGLMapView!, didSelectAnnotation annotation: MGLAnnotation!) {
@@ -210,6 +279,19 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
                     self.map.deselectAnnotation(annotation, animated: false)
                     self.map.selectAnnotation(annotation, animated: false)
             })
+        }
+        if (startingPoint != nil) {
+            directions?.cancel()
+            directions = MBDirections(request:
+                MBDirectionsRequest(sourceCoordinate: startingPoint!.coordinate,
+                    destinationCoordinate: annotation.coordinate),
+                accessToken: MGLAccountManager.accessToken())
+            directions!.calculateDirectionsWithCompletionHandler { [unowned self] (response, error) in
+                if (response?.routes.count > 0) {
+                    var routeGeometry = response!.routes.first!.geometry
+                    self.route = routeGeometry
+                }
+            }
         }
     }
 

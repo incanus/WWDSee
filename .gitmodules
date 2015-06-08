@@ -1,3 +1,6 @@
 [submodule "MapboxGeocoder"]
 	path = MapboxGeocoder
 	url = https://github.com/mapbox/MapboxGeocoder.swift
+[submodule "MapboxDirections"]
+	path = MapboxDirections
+	url = https://github.com/mapbox/MapboxDirections.swift

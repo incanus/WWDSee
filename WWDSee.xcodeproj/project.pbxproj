@@ -20,6 +20,8 @@
 		DDF8BCB21B25E28E00891404 /* listing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCB11B25E28E00891404 /* listing.jpg */; };
 		DDF8BCB41B25E36400891404 /* listing_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCB31B25E36400891404 /* listing_thumb.jpg */; };
 		DDF8BCB61B25E4A100891404 /* MapboxGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BCB51B25E4A100891404 /* MapboxGeocoder.swift */; };
+		DDF8BCBB1B25F8FC00891404 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BCB91B25F8FC00891404 /* SwiftyJSON.swift */; };
+		DDF8BCBC1B25F8FC00891404 /* MapboxDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BCBA1B25F8FC00891404 /* MapboxDirections.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		DDF8BCB11B25E28E00891404 /* listing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listing.jpg; sourceTree = "<group>"; };
 		DDF8BCB31B25E36400891404 /* listing_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listing_thumb.jpg; sourceTree = "<group>"; };
 		DDF8BCB51B25E4A100891404 /* MapboxGeocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapboxGeocoder.swift; path = MapboxGeocoder/MBGeocoder/MapboxGeocoder.swift; sourceTree = SOURCE_ROOT; };
+		DDF8BCB91B25F8FC00891404 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = MapboxDirections/SwiftyJSON/Source/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
+		DDF8BCBA1B25F8FC00891404 /* MapboxDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapboxDirections.swift; path = MapboxDirections/MapboxDirections.swift; sourceTree = SOURCE_ROOT; };
 		F725F8588C0901009F80D71C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,12 +92,10 @@
 				DDF8BCA61B25477300891404 /* DrawingView.swift */,
 				DDF8BC8B1B253CF400891404 /* Images.xcassets */,
 				DDF8BC8D1B253CF400891404 /* LaunchScreen.xib */,
-				DDF8BCA91B2570A300891404 /* denver.geojson */,
-				DDF8BCAB1B25719E00891404 /* turf.min.js */,
-				DDF8BCAC1B25719E00891404 /* javascript.util.min.js */,
-				DDF8BCB11B25E28E00891404 /* listing.jpg */,
-				DDF8BCB31B25E36400891404 /* listing_thumb.jpg */,
-				DDF8BCB51B25E4A100891404 /* MapboxGeocoder.swift */,
+				DDF8BCBF1B25F91900891404 /* JavaScript */,
+				DDF8BCC01B25F92300891404 /* Images */,
+				DDF8BCBE1B25F90B00891404 /* Geocoder */,
+				DDF8BCBD1B25F90200891404 /* Directions */,
 				DDF8BC821B253CF400891404 /* Supporting Files */,
 			);
 			path = WWDSee;
@@ -106,6 +108,42 @@
 				DDF8BCA41B25422500891404 /* Settings.bundle */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDF8BCBD1B25F90200891404 /* Directions */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8BCBA1B25F8FC00891404 /* MapboxDirections.swift */,
+				DDF8BCB91B25F8FC00891404 /* SwiftyJSON.swift */,
+			);
+			name = Directions;
+			sourceTree = "<group>";
+		};
+		DDF8BCBE1B25F90B00891404 /* Geocoder */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8BCB51B25E4A100891404 /* MapboxGeocoder.swift */,
+			);
+			name = Geocoder;
+			sourceTree = "<group>";
+		};
+		DDF8BCBF1B25F91900891404 /* JavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8BCA91B2570A300891404 /* denver.geojson */,
+				DDF8BCAB1B25719E00891404 /* turf.min.js */,
+				DDF8BCAC1B25719E00891404 /* javascript.util.min.js */,
+			);
+			name = JavaScript;
+			sourceTree = "<group>";
+		};
+		DDF8BCC01B25F92300891404 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8BCB11B25E28E00891404 /* listing.jpg */,
+				DDF8BCB31B25E36400891404 /* listing_thumb.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		E64E5F5B6EE8F5BEB077E3F3 /* Pods */ = {
@@ -246,6 +284,8 @@
 				DDF8BCA71B25477300891404 /* DrawingView.swift in Sources */,
 				DDF8BC871B253CF400891404 /* ViewController.swift in Sources */,
 				DDF8BCB61B25E4A100891404 /* MapboxGeocoder.swift in Sources */,
+				DDF8BCBB1B25F8FC00891404 /* SwiftyJSON.swift in Sources */,
+				DDF8BCBC1B25F8FC00891404 /* MapboxDirections.swift in Sources */,
 				DDF8BC851B253CF400891404 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
