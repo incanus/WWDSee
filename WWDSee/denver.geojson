@@ -1,0 +1,3405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01213073730467,
+          39.77424175134451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.16422271728516,
+          39.72831341029745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02723693847656,
+          39.72989765591686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12989044189452,
+          39.77978275602291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0354766845703,
+          39.72897351706311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04096984863281,
+          39.72884149621558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0486946105957,
+          39.729369578088736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05573272705078,
+          39.731349849086975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03015518188477,
+          39.74191033368865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02569198608398,
+          39.74877378095948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01916885375977,
+          39.75576851405812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01195907592773,
+          39.769887791862956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00543594360352,
+          39.76698499921571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00200271606445,
+          39.775693009973416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01934051513672,
+          39.78123389781533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0102424621582,
+          39.781101977098686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02758026123045,
+          39.7799146792685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0351333618164,
+          39.78070621343139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04663467407227,
+          39.780310447487985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05229949951172,
+          39.777144238002684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06277084350585,
+          39.77661652225977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06637573242188,
+          39.78176157815292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07392883300781,
+          39.78176157815292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08199691772461,
+          39.78228925444413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09418487548828,
+          39.78162965844787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10225296020506,
+          39.78057429170315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1120376586914,
+          39.78044236972201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ECE59A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "285,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISxjdndvdw0h1d0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12130737304686,
+          39.78070621343139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13589859008789,
+          39.77872736095372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14053344726562,
+          39.77001973407519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14139175415038,
+          39.76606135770647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14104843139647,
+          39.76408208417684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14104843139647,
+          39.759199632877234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.17332077026367,
+          39.72686115316559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14293670654297,
+          39.75471275080197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1453399658203,
+          39.74930171012354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14963150024414,
+          39.745342142783954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.15203475952148,
+          39.74006236568965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1527214050293,
+          39.73583825275197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.15941619873047,
+          39.726729128273085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#FD6E8A",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "335,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISptnz2arlrtm91000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1530647277832,
+          39.72738925020742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.15237808227539,
+          39.73280201166623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14671325683594,
+          39.726729128273085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14070510864256,
+          39.72659710312781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13280868530272,
+          39.72738925020742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12371063232422,
+          39.72699317780526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11444091796874,
+          39.726729128273085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10860443115234,
+          39.72752127383585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10311126708984,
+          39.72752127383585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09693145751953,
+          39.72778532033429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09092330932617,
+          39.72738925020742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0845718383789,
+          39.7279173432043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0783920288086,
+          39.72897351706311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06088256835938,
+          39.727257226326174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05401611328125,
+          39.7279173432043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03015518188477,
+          39.73847835367739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0076675415039,
+          39.764477943434464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01144409179688,
+          39.761706880838844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01693725585938,
+          39.76144296429947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02225875854492,
+          39.75299710099603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02792358398436,
+          39.74666202384811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03101348876953,
+          39.73016169331405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02758026123045,
+          39.72752127383585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04491806030273,
+          39.72738925020742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03152847290038,
+          39.77292239876509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0432014465332,
+          39.76395013058524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0377082824707,
+          39.753393023974844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06654739379883,
+          39.74600208647655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07495880126952,
+          39.75392091773995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0713539123535,
+          39.76672110290601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10173797607422,
+          39.76856835583232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11701583862305,
+          39.760783168525926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06826400756836,
+          39.73953436573085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08525848388672,
+          39.73597026020008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0977897644043,
+          39.73715831585601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11547088623047,
+          39.73636628102751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1307487487793,
+          39.735574237097275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14070510864256,
+          39.73544222889069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14636993408203,
+          39.74111835347134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14139175415038,
+          39.74626606218367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13847351074219,
+          39.74191033368865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13692855834961,
+          39.75695622837771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13504028320312,
+          39.763422313690086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13383865356444,
+          39.770283617740986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12989044189452,
+          39.776352662871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12336730957031,
+          39.77754002215451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11770248413085,
+          39.777671949699325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11186599731445,
+          39.77806773081644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10654449462889,
+          39.77740809435678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1010513305664,
+          39.77740809435678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09006500244139,
+          39.777144238002684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07959365844727,
+          39.77740809435678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07272720336914,
+          39.77833158363004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08491516113281,
+          39.776880380637024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06088256835938,
+          39.763422313690086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04732131958006,
+          39.73742232544291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0351333618164,
+          39.76117904674866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03633499145508,
+          39.748113863815384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#848D82",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "640,000",
+        "thumbnail": "http://photos2.zillowstatic.com/p_h/IS5y5d6qzsyo8s0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05624771118164,
+          39.739270364234464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06689071655273,
+          39.73319805069684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0761604309082,
+          39.73385811069143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07736206054688,
+          39.739666366099804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07770538330078,
+          39.74573810975803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07753372192383,
+          39.750621515334444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0787353515625,
+          39.758011957245174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06586074829102,
+          39.756296389617624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06088256835938,
+          39.75075349446485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05830764770508,
+          39.74745394035018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05435943603516,
+          39.759199632877234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05504608154297,
+          39.74573810975803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0483512878418,
+          39.76922807700863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04011154174803,
+          39.77358207821588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03393173217773,
+          39.76896418929674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02758026123045,
+          39.77081138203805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02878189086914,
+          39.76117904674866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02861022949217,
+          39.75603245234358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03324508666992,
+          39.75392091773995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03650665283202,
+          39.739270364234464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04234313964844,
+          39.73953436573085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05161285400389,
+          39.765137703806396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04783630371094,
+          39.76210275375137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04749298095703,
+          39.75853981561027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04234313964844,
+          39.75946355801398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04388809204102,
+          39.7555045747612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05109786987305,
+          39.75510866391943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05590438842772,
+          39.754448807459376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06036758422852,
+          39.757748026545464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06603240966797,
+          39.753393023974844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06689071655273,
+          39.75048953595114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07238388061523,
+          39.75048953595114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08508682250977,
+          39.74164634129424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08508682250977,
+          39.74705798323694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08491516113281,
+          39.753129075575146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08440017700195,
+          39.76263058076128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08371353149414,
+          39.767776682075784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08440017700195,
+          39.77199883691284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08920669555664,
+          39.77173495982195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09246826171875,
+          39.76460989601459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09641647338867,
+          39.77252658806002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10929107666016,
+          39.77199883691284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11701583862305,
+          39.76975584939786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1146125793457,
+          39.765929407907926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12542724609375,
+          39.76408208417684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12731552124023,
+          39.758671779569376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11444091796874,
+          39.7555045747612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0904083251953,
+          39.751149430339034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10053634643555,
+          39.751809318405684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10808944702148,
+          39.7523372243077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11547088623047,
+          39.749829635242065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10723114013672,
+          39.74375825213213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1007080078125,
+          39.74402223643582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09452819824219,
+          39.74428621972816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10602951049805,
+          39.73517821171903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09195327758789,
+          39.735574237097275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11375427246092,
+          39.74362625960105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12147903442383,
+          39.74521015328692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12216567993164,
+          39.75075349446485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12971878051758,
+          39.74956567318853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1307487487793,
+          39.74375825213213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12954711914061,
+          39.740854358042945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13572692871094,
+          39.73570624505104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13504028320312,
+          39.73253798438173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1146125793457,
+          39.733594087452055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09761810302734,
+          39.74890576362977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10551452636717,
+          39.74943369178244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11100769042969,
+          39.740854358042945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10448455810547,
+          39.76434599060146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.109806060791,
+          39.766853051187304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12474060058594,
+          39.77081138203805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13006210327148,
+          39.76395013058524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12250900268555,
+          39.73742232544291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06671905517577,
+          39.76500575223776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.062255859375,
+          39.77120720260559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02002716064452,
+          39.77160302089718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0234603881836,
+          39.76632525654491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0241470336914,
+          39.763422313690086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03942489624022,
+          39.769491963709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03135681152344,
+          39.76645720558483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03805160522461,
+          39.77754002215451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04663467407227,
+          39.776352662871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05212783813477,
+          39.773977882851725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05556106567381,
+          39.77081138203805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06757736206055,
+          39.773186271304056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06689071655273,
+          39.770415559194575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07272720336914,
+          39.77292239876509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07410049438477,
+          39.762366667762045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06860733032227,
+          39.76263058076128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0703239440918,
+          39.75933159557204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06380081176756,
+          39.76131100565051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05126953124999,
+          39.740986355883564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05229949951172,
+          39.73742232544291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06002426147461,
+          39.73715831585601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06156921386719,
+          39.74336227378032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06431579589844,
+          39.738610356068996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0713539123535,
+          39.73781833792706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0732421875,
+          39.74441821099508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06534576416016,
+          39.73029371163342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06500244140625,
+          39.726729128273085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0761604309082,
+          39.72620102617506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#2C3B63",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "price": "550,000",
+        "thumbnail": "http://photos1.zillowstatic.com/p_h/ISpx6dd7zvibdn0000000000.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08766174316406,
+          39.75840785139829
+        ]
+      }
+    }
+  ]
+}

@@ -1,9 +1,11 @@
 import UIKit
 import MapboxGL
+import JavaScriptCore
 
 class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate {
 
     var map: MGLMapView!
+    var js: JSContext!
     var drawingView: DrawingView!
 
     override func viewDidLoad() {
@@ -26,6 +28,31 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
             longitude: -104.881105)
         map.zoomLevel = 7
         view.addSubview(map)
+
+        js = JSContext(virtualMachine: JSVirtualMachine())
+
+        js.exceptionHandler = { context, value in
+            NSLog("Exception: %@", value)
+        }
+
+        let listingsJS = NSString(contentsOfFile:
+            NSBundle.mainBundle().pathForResource("denver", ofType: "geojson")!,
+            encoding: NSUTF8StringEncoding,
+            error: nil)
+        js.setObject(listingsJS, forKeyedSubscript: "listings")
+        js.evaluateScript("var listings = JSON.parse(listings)")
+
+        let utilJS = NSString(contentsOfFile:
+            NSBundle.mainBundle().pathForResource("javascript.util.min", ofType: "js")!,
+            encoding: NSUTF8StringEncoding,
+            error: nil) as! String
+        js.evaluateScript(utilJS)
+
+        let turfJS = NSString(contentsOfFile:
+            NSBundle.mainBundle().pathForResource("turf.min", ofType: "js")!,
+            encoding: NSUTF8StringEncoding,
+            error: nil) as! String
+        js.evaluateScript(turfJS)
     }
 
     func swapStyle() {
@@ -63,18 +90,67 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
     }
 
     func drawingView(drawingView: DrawingView, didDrawWithPoints points: [CGPoint]) {
+        var polygon = NSMutableDictionary()
+
+        polygon["type"] = "FeatureCollection"
+
+        var coordinatesArray = NSMutableArray()
+
         var coordinates = [CLLocationCoordinate2D]()
 
         for point in points {
-            coordinates.append(map.convertPoint(point, toCoordinateFromView: map))
+            let coordinate = map.convertPoint(point, toCoordinateFromView: map)
+            coordinates.append(coordinate)
+            coordinatesArray.addObject(
+                NSArray(objects: NSNumber(double: coordinate.longitude),
+                    NSNumber(double: coordinate.latitude)))
         }
 
-        map.addAnnotation(MGLPolygon(coordinates: &coordinates, count: UInt(coordinates.count)))
-        map.addAnnotation(MGLPolyline(coordinates: &coordinates, count: UInt(coordinates.count)))
+        var geometry = NSMutableDictionary()
+        geometry["type"] = "Polygon"
+        geometry["coordinates"] = NSArray(object: coordinatesArray)
+
+        var feature = NSMutableDictionary()
+        feature["geometry"] = geometry
+        feature["type"] = "Feature"
+        feature["properties"] = NSDictionary()
+
+        var features = NSArray(object: feature)
+
+        polygon["features"] = features
+
+        let polygonJSON = NSString(data:
+            NSJSONSerialization.dataWithJSONObject(polygon,
+                options: nil,
+                error: nil)!,
+            encoding: NSUTF8StringEncoding)
+
+        js.setObject(polygonJSON, forKeyedSubscript: "polygonJSON")
+        js.evaluateScript("var polygon = JSON.parse(polygonJSON)")
+
+        js.evaluateScript("var within = turf.within(listings, polygon)")
+
+        var annotationsToAdd = [MGLAnnotation]()
+
+        for i in 0..<js.evaluateScript("within.features.length").toInt32() {
+            js.setObject(NSNumber(int: i), forKeyedSubscript: "i")
+            let listing = js.evaluateScript("within.features[i]")
+            let lon = listing.objectForKeyedSubscript("geometry").objectForKeyedSubscript("coordinates").objectAtIndexedSubscript(0).toDouble()
+            let lat = listing.objectForKeyedSubscript("geometry").objectForKeyedSubscript("coordinates").objectAtIndexedSubscript(1).toDouble()
+            var newAnnotation = MGLPointAnnotation()
+            newAnnotation.coordinate = CLLocationCoordinate2D(latitude: lat,
+                longitude: lon)
+            annotationsToAdd.append(newAnnotation)
+        }
+
+        annotationsToAdd.append(MGLPolygon(coordinates: &coordinates, count: UInt(coordinates.count)))
+        annotationsToAdd.append(MGLPolyline(coordinates: &coordinates, count: UInt(coordinates.count)))
 
         var connector = [coordinates.last!, coordinates.first!]
 
-        map.addAnnotation(MGLPolyline(coordinates: &connector, count: UInt(connector.count)))
+        annotationsToAdd.append(MGLPolyline(coordinates: &connector, count: UInt(connector.count)))
+
+        map.addAnnotations(annotationsToAdd)
 
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(0.5)), dispatch_get_main_queue()) { [unowned self] in
             self.cancelSearch()
