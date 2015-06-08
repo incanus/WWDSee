@@ -193,7 +193,7 @@ class ViewController: UIViewController,
 
         js.evaluateScript("var within = turf.within(listings, polygon)")
 
-        var annotations = [MGLAnnotation]()
+        var pointAnnotations = [MGLAnnotation]()
 
         for i in 0..<js.evaluateScript("within.features.length").toInt32() {
             js.setObject(NSNumber(int: i), forKeyedSubscript: "i")
@@ -206,17 +206,33 @@ class ViewController: UIViewController,
                 longitude: lon)
             annotation.title = "Listing"
             annotation.subtitle = price
-            annotations.append(annotation)
+            pointAnnotations.append(annotation)
         }
 
-        annotations.append(MGLPolygon(coordinates: &coordinates, count: UInt(coordinates.count)))
-        annotations.append(KeyLine(coordinates: &coordinates, count: UInt(coordinates.count)))
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 1 * Int64(NSEC_PER_SEC)), dispatch_get_main_queue()) { [unowned self] in
+            self.map.addAnnotations(pointAnnotations)
+        }
+
+        let hud = MBProgressHUD(view: view)
+        hud.mode = .Indeterminate
+        hud.labelText = "Searching..."
+        hud.completionBlock = {
+            hud.removeFromSuperview()
+        }
+        view.addSubview(hud)
+        hud.show(true)
+        hud.hide(true, afterDelay: 1)
+
+        var lineAnnotations = [MGLAnnotation]()
+
+        lineAnnotations.append(MGLPolygon(coordinates: &coordinates, count: UInt(coordinates.count)))
+        lineAnnotations.append(KeyLine(coordinates: &coordinates, count: UInt(coordinates.count)))
 
         var connector = [coordinates.last!, coordinates.first!]
 
-        annotations.append(KeyLine(coordinates: &connector, count: UInt(connector.count)))
+        lineAnnotations.append(KeyLine(coordinates: &connector, count: UInt(connector.count)))
 
-        map.addAnnotations(annotations)
+        map.addAnnotations(lineAnnotations)
 
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(NSEC_PER_SEC)), dispatch_get_main_queue()) { [unowned self] in
             self.cancelSearch()
@@ -276,9 +292,9 @@ class ViewController: UIViewController,
             }
             view.addSubview(hud)
             hud.show(true)
-            hud.hide(true, afterDelay: 2.0)
+            hud.hide(true, afterDelay: 1)
 
-            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(2) * Int64(NSEC_PER_SEC)), dispatch_get_main_queue()) { [unowned self] in
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(1) * Int64(NSEC_PER_SEC)), dispatch_get_main_queue()) { [unowned self] in
                 var coordinates = self.route!
                 self.routeLine = RouteLine(coordinates: &coordinates, count: UInt(coordinates.count))
                 self.map.addAnnotation(self.routeLine)
