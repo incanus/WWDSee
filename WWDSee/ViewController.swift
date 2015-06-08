@@ -25,9 +25,9 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
         map = MGLMapView(frame: view.bounds)
         map.delegate = self
         map.autoresizingMask = .FlexibleWidth | .FlexibleHeight
-        map.centerCoordinate = CLLocationCoordinate2D(latitude: 39.76185,
-            longitude: -104.881105)
-        map.zoomLevel = 7
+        map.centerCoordinate = CLLocationCoordinate2D(latitude: 39.74185,
+            longitude: -104.981105)
+        map.zoomLevel = 10
         view.addSubview(map)
 
         js = JSContext(virtualMachine: JSVirtualMachine())
@@ -168,7 +168,7 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
     }
 
     func mapView(mapView: MGLMapView!, fillColorForPolygonAnnotation annotation: MGLPolygon!) -> UIColor! {
-        return UIColor.redColor()
+        return UIColor.blueColor()
     }
 
     func mapView(mapView: MGLMapView!, lineWidthForPolylineAnnotation annotation: MGLPolyline!) -> CGFloat {
@@ -176,7 +176,7 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
     }
 
     func mapView(mapView: MGLMapView!, strokeColorForShapeAnnotation annotation: MGLShape!) -> UIColor! {
-        return UIColor.redColor()
+        return UIColor.blueColor()
     }
 
     func mapView(mapView: MGLMapView!, annotationCanShowCallout annotation: MGLAnnotation!) -> Bool {
@@ -193,6 +193,10 @@ class ViewController: UIViewController, DrawingViewDelegate, MGLMapViewDelegate 
 
     func mapView(mapView: MGLMapView!, annotation: MGLAnnotation!, calloutAccessoryControlTapped control: UIControl!) {
         println(annotation.title)
+    }
+
+    func mapView(mapView: MGLMapView!, symbolNameForAnnotation annotation: MGLAnnotation!) -> String! {
+        return "secondary_marker"
     }
 
     func mapView(mapView: MGLMapView!, didSelectAnnotation annotation: MGLAnnotation!) {

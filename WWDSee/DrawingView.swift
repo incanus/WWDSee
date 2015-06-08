@@ -37,7 +37,7 @@ class DrawingView: UIView {
 
         UIGraphicsBeginImageContext(bounds.size)
         context = UIGraphicsGetCurrentContext()
-        CGContextSetStrokeColorWithColor(context, UIColor.redColor().colorWithAlphaComponent(0.75).CGColor)
+        CGContextSetStrokeColorWithColor(context, UIColor.blueColor().colorWithAlphaComponent(0.75).CGColor)
         CGContextSetLineWidth(context, 3)
     }
 
