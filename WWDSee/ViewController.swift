@@ -262,6 +262,9 @@ class ViewController: UIViewController,
             let hud = MBProgressHUD(view: view)
             hud.mode = .Indeterminate
             hud.labelText = "Routing..."
+            hud.completionBlock = {
+                hud.removeFromSuperview()
+            }
             view.addSubview(hud)
             hud.show(true)
             hud.hide(true, afterDelay: 2.0)
