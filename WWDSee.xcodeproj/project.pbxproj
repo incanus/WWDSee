@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		814DA61EC2BB0FD2F5785EBE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F725F8588C0901009F80D71C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DD48F3211B27B4B200007B59 /* turf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DD48F3201B27B4B200007B59 /* turf.min.js */; };
 		DDF8BC851B253CF400891404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BC841B253CF400891404 /* AppDelegate.swift */; };
 		DDF8BC871B253CF400891404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BC861B253CF400891404 /* ViewController.swift */; };
 		DDF8BC8C1B253CF400891404 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BC8B1B253CF400891404 /* Images.xcassets */; };
@@ -15,7 +16,6 @@
 		DDF8BCA51B25422500891404 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCA41B25422500891404 /* Settings.bundle */; };
 		DDF8BCA71B25477300891404 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BCA61B25477300891404 /* DrawingView.swift */; };
 		DDF8BCAA1B2570A300891404 /* denver.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCA91B2570A300891404 /* denver.geojson */; };
-		DDF8BCAD1B25719F00891404 /* turf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCAB1B25719E00891404 /* turf.min.js */; };
 		DDF8BCAE1B25719F00891404 /* javascript.util.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCAC1B25719E00891404 /* javascript.util.min.js */; };
 		DDF8BCB21B25E28E00891404 /* listing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCB11B25E28E00891404 /* listing.jpg */; };
 		DDF8BCB41B25E36400891404 /* listing_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCB31B25E36400891404 /* listing_thumb.jpg */; };
@@ -31,6 +31,7 @@
 /* Begin PBXFileReference section */
 		3236931C52EFF32A23AD9C51 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4FE41B18CABEE255EF292C0D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DD48F3201B27B4B200007B59 /* turf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = turf.min.js; path = TurfJS/turf.min.js; sourceTree = SOURCE_ROOT; };
 		DDF8BC7F1B253CF400891404 /* WWDSee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDSee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF8BC831B253CF400891404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDF8BC841B253CF400891404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		DDF8BCA41B25422500891404 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		DDF8BCA61B25477300891404 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		DDF8BCA91B2570A300891404 /* denver.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = denver.geojson; sourceTree = "<group>"; };
-		DDF8BCAB1B25719E00891404 /* turf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = turf.min.js; sourceTree = "<group>"; };
 		DDF8BCAC1B25719E00891404 /* javascript.util.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascript.util.min.js; sourceTree = "<group>"; };
 		DDF8BCB11B25E28E00891404 /* listing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listing.jpg; sourceTree = "<group>"; };
 		DDF8BCB31B25E36400891404 /* listing_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listing_thumb.jpg; sourceTree = "<group>"; };
@@ -101,7 +101,8 @@
 				DDF8BCC71B2645AF00891404 /* Extension.swift */,
 				DDF8BC8B1B253CF400891404 /* Images.xcassets */,
 				DDF8BC8D1B253CF400891404 /* LaunchScreen.xib */,
-				DDF8BCBF1B25F91900891404 /* JavaScript */,
+				DDF8BCA91B2570A300891404 /* denver.geojson */,
+				DDF8BCBF1B25F91900891404 /* TurfJS */,
 				DDF8BCC01B25F92300891404 /* Images */,
 				DDF8BCBE1B25F90B00891404 /* Geocoder */,
 				DDF8BCBD1B25F90200891404 /* Directions */,
@@ -136,14 +137,13 @@
 			name = Geocoder;
 			sourceTree = "<group>";
 		};
-		DDF8BCBF1B25F91900891404 /* JavaScript */ = {
+		DDF8BCBF1B25F91900891404 /* TurfJS */ = {
 			isa = PBXGroup;
 			children = (
-				DDF8BCA91B2570A300891404 /* denver.geojson */,
-				DDF8BCAB1B25719E00891404 /* turf.min.js */,
+				DD48F3201B27B4B200007B59 /* turf.min.js */,
 				DDF8BCAC1B25719E00891404 /* javascript.util.min.js */,
 			);
-			name = JavaScript;
+			name = TurfJS;
 			sourceTree = "<group>";
 		};
 		DDF8BCC01B25F92300891404 /* Images */ = {
@@ -227,13 +227,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD48F3211B27B4B200007B59 /* turf.min.js in Resources */,
 				DDF8BCB21B25E28E00891404 /* listing.jpg in Resources */,
 				DDF8BCC51B26402D00891404 /* 1096-direction-arrow.png in Resources */,
 				DDF8BCB41B25E36400891404 /* listing_thumb.jpg in Resources */,
 				DDF8BCAE1B25719F00891404 /* javascript.util.min.js in Resources */,
 				DDF8BC8F1B253CF400891404 /* LaunchScreen.xib in Resources */,
 				DDF8BCC61B26402D00891404 /* 1096-direction-arrow@2x.png in Resources */,
-				DDF8BCAD1B25719F00891404 /* turf.min.js in Resources */,
 				DDF8BCAA1B2570A300891404 /* denver.geojson in Resources */,
 				DDF8BCA51B25422500891404 /* Settings.bundle in Resources */,
 				DDF8BCC41B26402D00891404 /* 1096-direction-arrow@3x.png in Resources */,

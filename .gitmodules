@@ -4,3 +4,6 @@
 [submodule "MapboxDirections"]
 	path = MapboxDirections
 	url = https://github.com/mapbox/MapboxDirections.swift
+[submodule "TurfJS"]
+	path = TurfJS
+	url = https://github.com/Turfjs/turf
