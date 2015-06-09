@@ -127,6 +127,10 @@ class ViewController: UIViewController,
                 drawingView.removeFromSuperview()
                 drawingView = nil
             }
+            startingPoint = nil
+            directions = nil
+            route = nil
+            routeLine = nil
         }
     }
 
