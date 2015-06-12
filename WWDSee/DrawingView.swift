@@ -1,24 +1,34 @@
 import UIKit
 
-protocol DrawingViewDelegate {
+public protocol DrawingViewDelegate {
 
     func drawingView(drawingView: DrawingView, didDrawWithPoints points: [CGPoint])
 
 }
 
-class DrawingView: UIView {
+public class DrawingView: UIView {
 
-    var points: [CGPoint]!
-    var context: CGContextRef!
-    var delegate: DrawingViewDelegate?
+    private var points: [CGPoint]!
+    private var context: CGContextRef!
+    private var strokeColor: UIColor = UIColor.blueColor().colorWithAlphaComponent(0.75)
+    private var lineWidth: CGFloat = 3
 
-    override init(frame: CGRect) {
+    public var delegate: DrawingViewDelegate?
+
+    public convenience init(frame: CGRect, strokeColor: UIColor, lineWidth: CGFloat) {
+        self.init(frame: frame)
+
+        self.strokeColor = strokeColor
+        self.lineWidth = lineWidth
+    }
+
+    public override init(frame: CGRect) {
         super.init(frame: frame)
 
         setup()
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 
         setup()
@@ -28,18 +38,40 @@ class DrawingView: UIView {
         UIGraphicsEndImageContext()
     }
 
-    func setup() {
+    public func setStrokeColor(strokeColor: UIColor) {
+        self.strokeColor = strokeColor
+        CGContextSetStrokeColorWithColor(context, strokeColor.CGColor)
+    }
+
+    public func setLineWidth(lineWidth: CGFloat) {
+        self.lineWidth = lineWidth
+        CGContextSetLineWidth(context, lineWidth)
+    }
+
+    private func setup() {
         backgroundColor = UIColor.clearColor()
 
         points = [CGPoint]()
 
-        UIGraphicsBeginImageContext(bounds.size)
-        context = UIGraphicsGetCurrentContext()
-        CGContextSetStrokeColorWithColor(context, UIColor.blueColor().colorWithAlphaComponent(0.75).CGColor)
-        CGContextSetLineWidth(context, 3)
+        createContext()
     }
 
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    public func reset() {
+        points = [CGPoint]()
+
+        UIGraphicsEndImageContext();
+
+        createContext()
+    }
+
+    private func createContext() {
+        UIGraphicsBeginImageContext(bounds.size)
+        context = UIGraphicsGetCurrentContext()
+        setStrokeColor(self.strokeColor)
+        setLineWidth(self.lineWidth)
+    }
+
+    override public func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         points.removeAll(keepCapacity: false)
 
         let firstPoint = (touches.first as! UITouch).locationInView(self)
@@ -50,7 +82,7 @@ class DrawingView: UIView {
         CGContextMoveToPoint(context, firstPoint.x, firstPoint.y)
     }
 
-    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override public func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
         CGContextMoveToPoint(context, points.last!.x, points.last!.y)
 
         let point = (touches.first as! UITouch).locationInView(self)
@@ -65,9 +97,7 @@ class DrawingView: UIView {
         layer.contents = image.CGImage
     }
 
-    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
-        let point = (touches.first as! UITouch).locationInView(self)
-
+    override public func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
         delegate?.drawingView(self, didDrawWithPoints: points)
     }
 
