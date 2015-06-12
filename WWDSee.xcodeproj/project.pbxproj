@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		814DA61EC2BB0FD2F5785EBE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F725F8588C0901009F80D71C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DD48F3211B27B4B200007B59 /* turf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DD48F3201B27B4B200007B59 /* turf.min.js */; };
+		DDA64D451B2B95C700904914 /* MBDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA64D441B2B95C700904914 /* MBDrawingView.swift */; };
 		DDF8BC851B253CF400891404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BC841B253CF400891404 /* AppDelegate.swift */; };
 		DDF8BC871B253CF400891404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BC861B253CF400891404 /* ViewController.swift */; };
 		DDF8BC8C1B253CF400891404 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BC8B1B253CF400891404 /* Images.xcassets */; };
 		DDF8BC8F1B253CF400891404 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BC8D1B253CF400891404 /* LaunchScreen.xib */; };
 		DDF8BCA51B25422500891404 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCA41B25422500891404 /* Settings.bundle */; };
-		DDF8BCA71B25477300891404 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8BCA61B25477300891404 /* DrawingView.swift */; };
 		DDF8BCAA1B2570A300891404 /* denver.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCA91B2570A300891404 /* denver.geojson */; };
 		DDF8BCAE1B25719F00891404 /* javascript.util.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCAC1B25719E00891404 /* javascript.util.min.js */; };
 		DDF8BCB21B25E28E00891404 /* listing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDF8BCB11B25E28E00891404 /* listing.jpg */; };
@@ -32,6 +32,7 @@
 		3236931C52EFF32A23AD9C51 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4FE41B18CABEE255EF292C0D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DD48F3201B27B4B200007B59 /* turf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = turf.min.js; path = TurfJS/turf.min.js; sourceTree = SOURCE_ROOT; };
+		DDA64D441B2B95C700904914 /* MBDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBDrawingView.swift; path = MBDrawingView/MBDrawingView.swift; sourceTree = SOURCE_ROOT; };
 		DDF8BC7F1B253CF400891404 /* WWDSee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDSee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF8BC831B253CF400891404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDF8BC841B253CF400891404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		DDF8BC8B1B253CF400891404 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DDF8BC8E1B253CF400891404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DDF8BCA41B25422500891404 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		DDF8BCA61B25477300891404 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		DDF8BCA91B2570A300891404 /* denver.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = denver.geojson; sourceTree = "<group>"; };
 		DDF8BCAC1B25719E00891404 /* javascript.util.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascript.util.min.js; sourceTree = "<group>"; };
 		DDF8BCB11B25E28E00891404 /* listing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listing.jpg; sourceTree = "<group>"; };
@@ -74,6 +74,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DDA64D431B2B95AF00904914 /* MBDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				DDA64D441B2B95C700904914 /* MBDrawingView.swift */,
+			);
+			name = MBDrawingView;
+			sourceTree = "<group>";
+		};
 		DDF8BC761B253CF400891404 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +105,11 @@
 			children = (
 				DDF8BC841B253CF400891404 /* AppDelegate.swift */,
 				DDF8BC861B253CF400891404 /* ViewController.swift */,
-				DDF8BCA61B25477300891404 /* DrawingView.swift */,
 				DDF8BCC71B2645AF00891404 /* Extension.swift */,
 				DDF8BC8B1B253CF400891404 /* Images.xcassets */,
 				DDF8BC8D1B253CF400891404 /* LaunchScreen.xib */,
 				DDF8BCA91B2570A300891404 /* denver.geojson */,
+				DDA64D431B2B95AF00904914 /* MBDrawingView */,
 				DDF8BCBF1B25F91900891404 /* TurfJS */,
 				DDF8BCC01B25F92300891404 /* Images */,
 				DDF8BCBE1B25F90B00891404 /* Geocoder */,
@@ -296,9 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF8BCA71B25477300891404 /* DrawingView.swift in Sources */,
 				DDF8BC871B253CF400891404 /* ViewController.swift in Sources */,
 				DDF8BCC81B2645AF00891404 /* Extension.swift in Sources */,
+				DDA64D451B2B95C700904914 /* MBDrawingView.swift in Sources */,
 				DDF8BCB61B25E4A100891404 /* MapboxGeocoder.swift in Sources */,
 				DDF8BCBB1B25F8FC00891404 /* SwiftyJSON.swift in Sources */,
 				DDF8BCBC1B25F8FC00891404 /* MapboxDirections.swift in Sources */,

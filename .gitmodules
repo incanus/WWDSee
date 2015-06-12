@@ -7,3 +7,6 @@
 [submodule "TurfJS"]
 	path = TurfJS
 	url = https://github.com/Turfjs/turf
+[submodule "MBDrawingView"]
+	path = MBDrawingView
+	url = https://github.com/mapbox/MBDrawingView.swift

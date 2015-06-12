@@ -10,14 +10,14 @@ class KeyLine: MGLPolyline {}
 class RouteLine: MGLPolyline {}
 
 class ViewController: UIViewController,
-                      DrawingViewDelegate,
+                      MBDrawingViewDelegate,
                       MGLMapViewDelegate {
 
     let MapboxTintColor = UIColor(red: 0.120, green:0.550, blue:0.670, alpha:1.000)
 
     var map: MGLMapView!
     var js: JSContext!
-    var drawingView: DrawingView!
+    var drawingView: MBDrawingView!
     var geocoder: MBGeocoder!
     var startingPoint: StartingAnnotation?
     var directions: MBDirections?
@@ -143,7 +143,7 @@ class ViewController: UIViewController,
 
         map.userInteractionEnabled = false
 
-        drawingView = DrawingView(frame: view.bounds)
+        drawingView = MBDrawingView(frame: view.bounds)
         drawingView.delegate = self
         view.addSubview(drawingView)
     }
@@ -161,7 +161,7 @@ class ViewController: UIViewController,
         drawingView = nil
     }
 
-    func drawingView(drawingView: DrawingView, didDrawWithPoints points: [CGPoint]) {
+    func drawingView(drawingView: MBDrawingView, didDrawWithPoints points: [CGPoint]) {
         var polygon = NSMutableDictionary()
 
         polygon["type"] = "FeatureCollection"
